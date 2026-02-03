@@ -1,0 +1,131 @@
+html{
+    font-family: Noto Sans, sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+
+
+.pop{
+    font-family: Karmatic Arcade, sans-serif;
+}
+/* .pop{font-family: Pixelify Sans, sans-serif;} */
+
+.container{
+    width: 100%;
+    max-width: 1450px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+header{
+    padding: 15px 0px;
+
+}
+
+.logo{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.logo span{
+    color: white;
+    cursor: default;
+}
+
+.no-dot{
+    list-style: none;
+}
+
+.no-dot li{
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.no-dot li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.no-dot li a:hover{
+    color: #53e753;
+    transition: 0.3s;
+}
+
+.arcade-box{ 
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+/* .arcade-box{ 
+    width: 100%;
+    max-width: 1450px;
+    margin-top: 30px;
+    margin-left: 125px;
+    padding-bottom: 100px;
+} */
+
+#introduction{
+    background-image: url(./image/AboutMe_image.png);
+    background-size: cover;
+    background-position: 0% 30%;
+    height: 920px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 90px;
+    background-color: aqua;
+}
+
+.introduction_inner{
+    margin: auto;
+    max-width: 550px;
+    align-items: center;
+}
+
+
+.introduction_inner p{
+    font-size: 16px;
+    border-radius: 10px;
+    align-items: center;
+    color: #53e753;
+    height: inherit;
+    margin-top: 40px;
+    padding-top: 40px;
+    padding-left: 15px;
+    cursor: default;
+    line-height: 180%;
+}
+
+
+
+/* .introduction_inner p{
+    font-size: 16px;
+    padding-right: 400px;
+    padding-left: 470px; 
+    margin-left: 0px;
+    margin-right: 70px;
+    margin-bottom: 90px;
+    color: white;
+    background-color: purple;
+} */
+
+.project_inner h1{
+    font-family: Karmatic Arcade, sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+
+
+
